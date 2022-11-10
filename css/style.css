@@ -1,0 +1,23 @@
+body {
+  margin-top: 50px;
+}
+
+.jumbotron img {
+  width: 25%;
+}
+
+.jumbotron {
+  background: ##0099ff;
+}
+
+.waves {
+  margin-top: -20px;
+}
+section {
+  min-height: 420px;
+}
+
+footer {
+  min-height: 50px;
+  padding-top: 12px;
+}

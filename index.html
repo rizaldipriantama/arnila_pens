@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <style type="text/css">
+      .home{width:80%;text-align:center;margin-left:10%}
+      .judul{background:#fff;padding:10px;border-radius:15px;color:#000;font-size:20px;font-weight:800;word-spacing:2em;}
+      .judul2{padding:10px;border-radius:15px;color:#000;font-size:20px;font-weight:800}
+      .abstrak, .pendahuluan {background:#0099ff !important;margin:0 0 30px 0}
+      .nav-tabs{padding:0 10px 0 10px;text-align:center}
+      .nav-link{color:#000;font-weight: 700;}
+      .card{margin:0 0 30px 0}
+      .card-header{background:#ccefff}
+    </style>
+    <title>ANALISA PENGARUH PEMINDAHAN VHF-ER FREKUENSI 125.1 MHZ DARI JANGLI KE BLORA TERHADAP PELAYANAN LALU LINTAS PENERBANGAN DI SURABAYA TERMINAL CONTROL AREA WEST SECTOR (TMA-W)</title>
+  </head>
+  <body>
+
+    <!-- NAVIGASI -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <img style="width:24px" src="img/logo3.png">
+      <a style="padding:0 0 0 10px;font-size:12px;line-height:14px;color:#fff" class="navbar-brand" href="">Politeknik Elektronika Negeri Surabaya<br/>&copy; Arnila Maulidya Avianty</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+              <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+          </svg> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#abstrak"> <svg style="width:20px;height:18px" viewBox="0 0 16 26">
+              <path fill="currentColor" d="M20 2H4C2.9 2 2 2.9 2 4V16C2 17.1 2.9 18 4 18H8V21C8 21.6 8.4 22 9 22H9.5C9.7 22 10 21.9 10.2 21.7L13.9 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M11 13H7V8.8L8.3 6H10.3L8.9 9H11V13M17 13H13V8.8L14.3 6H16.3L14.9 9H17V13Z" />
+          </svg> Abstraksi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <svg style="width:20px;height:18px" viewBox="0 0 16 26">
+                <path fill="currentColor" d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg> Penulisan
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#product">Pendahuluan</a>
+              <a class="dropdown-item" href="#contoh">Metodologi Penelitian</a>
+              <a class="dropdown-item" href="#order">Tentang Penulis</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+              <path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11C2 13.1 3 15.1 4.8 16.5C4.8 17.1 4.4 18.7 2 21C2 21 5.5 21 8.5 18.5C9.6 18.8 10.8 19 12 19C17.5 19 22 15.4 22 11S17.5 3 12 3M13 15H11V13H13V15M14.8 10C14.5 10.4 14.1 10.6 13.7 10.8C13.4 11 13.3 11.1 13.2 11.3C13 11.5 13 11.7 13 12H11C11 11.5 11.1 11.2 11.3 10.9C11.5 10.7 11.9 10.4 12.4 10.1C12.7 10 12.9 9.8 13 9.6C13.1 9.4 13.2 9.1 13.2 8.9C13.2 8.6 13.1 8.4 12.9 8.2C12.7 8 12.4 7.9 12.1 7.9C11.8 7.9 11.6 8 11.4 8.1C11.2 8.2 11.1 8.4 11.1 8.7H9.1C9.2 8 9.5 7.4 10 7C10.5 6.6 11.2 6.5 12.1 6.5C13 6.5 13.8 6.7 14.3 7.1C14.8 7.5 15.1 8.1 15.1 8.8C15.2 9.2 15.1 9.6 14.8 10Z" />
+          </svg>Dokumentasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+              <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+          </svg> Analisa</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <!-- JUDUL-->
+  <section id="home" class="jumbotron text-center" style="background:#fff;margin:0;padding:20px">
+    <div class="home" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2000">
+    <img style="width:240px" src="img/logo3.png"><br>
+    <h3 style="color:#000"><b>ANALISA PENGARUH PEMINDAHAN VHF-ER FREKUENSI 125.1 MHZ DARI JANGLI KE BLORA TERHADAP PELAYANAN LALU LINTAS PENERBANGAN DI SURABAYA TERMINAL CONTROL AREA WEST SECTOR (TMA-W)</b></h3>
+       <br/><h5>Oleh :<br/>ARNILA MAULIDYA AVIANTY<br/>NRP.2221651106</h5><br/>
+       <h5><b>PROGRAM STUDI TEKNIK TELEKOMUNIKASI <br/>POLITEKNIK ELEKTRONIKA NEGERI SURABAYA 2022</b></h5>
+  </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,64L34.3,80C68.6,96,137,128,206,128C274.3,128,343,96,411,112C480,128,549,192,617,181.3C685.7,171,754,85,823,90.7C891.4,96,960,192,1029,208C1097.1,224,1166,160,1234,128C1302.9,96,1371,96,1406,96L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
+
+    <!-- ABSTRAK -->
+    <section class="abstrak" id="abstrak">
+      <div class="container" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="2000">
+        <div class="card">
+          <div class="card-header text-center">
+            <span class="judul2">ABSTRAK</span>
+          </div>
+          <div class="card-body">
+            <Antenna class="blockquote mb-0" style="text-align: justify;font-size:14px">
+              <p style="text-indent: 50px;">Perum LPPNPI menyediakan jasa pelayanan navigasi penerbangan sesuai dengan standar yang berlaku. Di antara fasilitas yang disediakan untuk menunjang pelayanan navigasi penerbangan adalah Communication, Navigation, Survillance, and Automation (CNS-A). Salah satu dari fasilitas Communication tersebut adalah Radio VHF A/G (Very High Frequency Air to Ground). VHF A/G digunakan sebagai sarana komunikasi antara ATC (Air Traffic Controller) dengan Pilot. Terdapat beberapa pembagian tentang wilayah cakupan wilayah yang harus dipertanggung jawabkan penyelenggaraan pelayanan lalu lintas penerbangannya yang terdiri dari Aerodrome Flight Information Service (AFIS), Aerodrome Control Center (ADC), Approach Control Office (APP); dan Area Control Center (ACC). Dalam pembahasan kali ini, kita akan berfokus pada Area Control Center ( ACC ) yang mempunyai cakupan wilayah paling luas dibandingkan dengan wilayah cakupan yang lain. ACC memberikan layanan untuk pengendalian ruang udara jelajah (en- route area). Wilayah yang dicakup oleh ACC ini dikontrol melalui 2 pusat ACC yaitu berada di Makassar dan Jakarta.
+              </p>
+              <p style="text-indent: 50px;">Dalam rangka mencakup seluruh wilayah penerbangan Indonesia, 2 pusat ACC ini tidak dapat memancarkan sinyal dari wilayah mereka saja untuk mencakup keseluruhan wilayah yang harus mereka control, diperlukan pemasangan VHF A/G pembantu dalam upaya memenuhi kebutuhan cakupan wilayah dengan peralatan yang disebut VHF A/G Extended Range ( VHF-ER ). VHF-ER dipasang untuk mengcover daerah yang tidak dapat tercover oleh VHF A/G pusat ACC sehingga komunikasi tetap dapat dilakukan dengan baik.
+              </p>
+              <p style="text-indent: 50px;">Antenna VHF yang sangat tinggi diletakkan di daerah berdataran tinggi ataupun perbukitan untuk kemudian dibangun stasiun radio untuk p enempatan peralatan dimaksud sehingga dapat menjangkau daerah yang sangat luas sesuai kebutuhan pelayanan penerbangan (ACC-area). Power yang digunakan alat ini sebesar 100 watt sampai dengan 200 watt berdasarkan kebutuhan wilayah yang hendak dijangkau, serta penempatan alat ini juga berdasarkan jauh pancaran yang diharapkan. Sedangkan, untuk media transmisinya menggunakan V-SAT. Dipindahkannya VHF-ER dari Jangli ke Blora ini dikarenakan adanya coverage yang tidak tercapai
+              </p>
+              <footer class="blockquote-footer"><b>Kata Kunci : </b><cite title="Source Title">VHF A/G, VHF-ER, ACC, V-SAT</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+        </div>
+      <div style="padding:50px" class="container" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="2000">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <span class="judul">PENDAHULUAN</span>
+          </div>
+        </div>
+	<div class="card text-center">
+	  <div class="card-header">
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a href="#latar-belakang" class="nav-link active" data-toggle="tab">Latar Belakang</a>
+			</li>
+			<li class="nav-item">
+				<a href="#rumusan" class="nav-link" data-toggle="tab">Rumusan Masalah</a>
+			</li>
+			<li class="nav-item">
+				<a href="#batasan" class="nav-link" data-toggle="tab">Batasan Masalah</a>
+			</li>
+			<li class="nav-item">
+				<a href="#tujuan" class="nav-link" data-toggle="tab">Tujuan Penelitian</a>
+			</li>
+		</ul>
+		</div>
+	<div class="card-body">
+	<div class="tab-content">
+			<div class="tab-pane fade show active" id="latar-belakang">
+			<h4 class="mt-2">Latar Belakang</h4>
+      <div style="text-align: justify;font-size:11px">
+	    <p style="text-indent: 50px;">
+        Di era yang semakin berkembang ini, kita dituntut untuk selalu berbenah dan mengikuti perkembangan zaman dan diharuskan untuk dapat beradaptasi dan siap membenahi diri demi mengikuti perkembangan teknologi yang semakin maju dan pesat. Tak dipungkiri di dunia penerbangan juga terutama dalam komunikasi penerbangan. Komunikasi menjadi aspek vital yang perlu terus menerus dikembangkan dan dievaluasi demi terciptanya lingkungan dan suasana kerja yang kondusif, produktif, dan efektif bagi semua penyelenggara penerbangan dimanapun berada.
+        Fasilitas komunikasi penerbangan yang akan kita bahas kali ini adalah Very High Frequency Air to Ground (VHF A/G / VHF Air-Ground) atau Peralatan Komunikasi Darat Udara berfrekuensi amat tinggi di bandar udara. Merupakan peralatan komunikasi radio yang beroperasi pada jarak frekuensi 117,975 MHz hingga 137 MHz dan dipergunakan untuk media komunikasi petugas ATC ( Air Traffic Controller ) di suatu unit pelayanan lalu lintas penerbangan dengan pilot di pesawat udara.
+        Terdapat beberapa pembagian tentang wilayah cakupan wilayah yang harus dipertanggung jawabkan penyelenggaraan pelayanan lalu lintas penerbangannya yang terdiri dari :
+      <br/>a. Aerodrome Flight Information Service (AFIS);
+      <br/>b.	Aerodrome Control Center (ADC);
+      <br/>c.	Approach Control Office (APP); dan
+      <br/>d.	Area Control Center (ACC)</p>
+      <p style="text-indent: 50px;">
+        AFIS memberikan pelayanan informasi kepada pesawat udara yang datang ataupun hendak melakukan keberangkatan di suatu bandar udara, biasanya meliputi kondisi cuaca, alat navigasi, kondisi ground bandara, ataupun ada atau tidaknya pesawat lain yang tengah beroperasi di sekitar bandar udara.
+        ADC memberikan informasi lalu lintas penerbangan yang lingkup yang harus dipertanggung jawabkan meliputi control di ruang udara di sekitar bandar udara termasuk pendaratan dan lepas landas pesawat udara. APP memberikan pelayanan lalu lintas penerbangan berupa pengendalian ruang udara pendekatan atau approach area ke arah bandar udara. ACC memberikan pelayanan pengendalian ruang udara jelajah atau en-route area.
+      </p>
+      <p style="text-indent: 50px;">
+        Dalam pembahasan kali ini, kita akan berfokus pada Area Control Center ( ACC ) yang mempunyai cakupan wilayah paling luas dibandingkan dengan wilayah cakupan yang lain. ACC memberikan layanan untuk pengendalian ruang udara jelajah (en-route area). Wilayah yang dicakup oleh ACC ini dikontrol melalui 2 pusat ACC yaitu berada di Makassar dan Jakarta.
+        Dalam rangka mencakup seluruh wilayah penerbangan Indonesia, 2 pusat ACC ini tidak dapat memancarkan sinyal dari wilayah mereka saja untuk mencakup keseluruhan wilayah yang harus mereka control, diperlukan pemasangan VHF A/G pembantu dalam upaya memenuhi kebutuhan cakupan wilayah dengan peralatan yang disebut VHF A/G Extended Range (VHF-ER). VHF-ER dipasang untuk mengcover daerah yang tidak dapat tercover oleh VHF A/G pusat ACC sehingga komunikasi tetap dapat dilakukan dengan baik.
+        Antenna VHF yang sangat tinggi diletakkan di daerah berdataran tinggi ataupun perbukitan untuk kemudian dibangun stasiun radio untuk penempatan peralatan dimaksud sehingga dapat menjangkau daerah yang sangat luas sesuai kebutuhan pelayanan penerbangan (ACC-area). Power yang digunakan alat ini sebesar 100 watt sampai dengan 200 watt berdasarkan kebutuhan wilayah yang hendak dijangkau, serta penempatan alat ini juga berdasarkan jauh pancaran yang diharapkan. Sedangkan, untuk media transmisinya menggunakan V-SAT.
+      </p>
+    </div>
+      </div>
+				<div class="tab-pane fade" id="rumusan">
+					<h4 class="mt-2">Rumusan Masalah</h4>
+        <p class="text-left">
+          Rumusan masalah dalam pembuatan proyek akhir ini antara lain:
+          <br/><br/>1.	Apa penyebab di pindahkannya peralatan VHF-ER dari Jangli ke Blora?
+          <br/><br/>2.	Apa manfaat dan kekurangan yang terjadi pada saat pemindahan VHF-ER dari Jangli ke Blora        
+</p></div>
+				<div class="tab-pane fade" id="batasan">
+					<h4 class="mt-2">Batasan Masalah</h4>	
+<p class="text-left">
+  Batasan masalah yang digunakan pada proyek akhir ini antara lain:
+  <dl style="text-align:left">1.	Terkait analisa tentang pemindahan peralatan VHF-ER yang terdapat di Jangli Semarang di pindahkan ke Blora digunakan untuk melihat perubahan dan pengaruh yang disebabkan oleh pemindahan peralatan ini.</dl>
+  <dl style="text-align:left">2.	Keunggulan dan kelemahan terkait pemindahan peralatan tersebut. Pembatasan masalah ini dimaksudkan untuk menghindari terjadinya penyimpangan dan meluasnya masalah.</dl>  
+</p>
+				</div>
+				<div class="tab-pane fade" id="tujuan">
+					<h4 class="mt-2">Tujuan Penelitian</h4>
+<p style="text-indent: 50px;text-align: justify;">
+  Tujuan dari pembuatan proyek akhir ini adalah melakukan analisa yang dilakukan yaitu untuk mengetahui lebih dalam mengenai sebab dan akibat dilakukannya pemindahan VHF-ER dari Jangli ke Blora dan membuka wawasan tentang bagaimana penyesuaian yang harus terus di adaptasi demi terciptanya keamanan pelayanan navigasi penerbangan Indonesia.
+</p>
+	</div>
+		</div>
+</div>
+      </div>
+    </section>
+
+    <section class="jumbotron jumbotron-fluid">
+  <div class="container" id="faq" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="2000">
+    <h2 class="text-center">Tinjauan Pustaka</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne" style="background:#17a2b8">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <b style="color:#fff">Penelitian Sebelumnya</b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <div style="text-align: justify;">
+              <p style="text-indent: 50px;">
+                Sogi Wibowo Putra pada tahun 2019 memiliki penelitian tentang “Analisis Performance Peralatan Transmitter Very High Frequency Extended Range (VHF- ER) Merk PAE Series 2750 di Bandar Udara Sepinggan Balikpapan”. Pada penelitian ini membahas tentang analisa performance check peralatan Transmitter VHF-ER merk PAE 2750 Ground to Air Communication yang diketahui bahwa pada beberapa parameter terjadi kesenjangan dan tidak sesuai spesifikasi teknis peralatan Transmitter VHF-ER tersebut. [1]
+                </p><br/><p style="text-indent: 50px;">Johan Wahyudi pada tahun 2017 melakukan penelitian tentang “Kajian Teknis Hasil Pemasangan VHF-ER Ground to Air”. Pada penelitian ini membahas tentang penambahan koridor W-18 dengan ketinggian 6000 feet dan jarak hingga 182,5 mengakibatkan terdapat area yang tidak bisa berkomunikasi antara pilot dengan Air Traffic Controller (ATC) dengan menggunakan peralatan komunikasi VHF A/G. Dari hasil survei didapatkan pula gangguan baru yang muncul dikarenakan terdapat pertemuan area antara VHF A/G Tarakan dengan VHF A/G-ER Kalimarau Berau berupa delay dengan beda waktu 500 milidetik yang diterima bersama. [2]
+                </p><br/><p style="text-indent: 50px;">Kemudian juga didapatkan dari buku-buku penunjang teori mengenai VHF- ER dan VHF A/G serta peraturan-peraturan yang berkaitan baik dalam sekala nasional maupun internasional mengenai ketentuan peletakan peralatan Elektronika Penerbangan. Peraturan lain yang akan digunakan sebagai bahan pertimbangan yaitu “ICAO-ANNEX 10” tentang Aeronauticals Telecommunications dan juga literatur serta standar lain dalam hal keselamatan penerbangan,baik berupa datasheet/katalog/data teknis dari suatu produk atau buku aplikasi teknis yang dikeluarkan oleh pabrikan, situs, forum serta sumber-sumber pembahasan dan diskusi di internet.               
+              </p>
+            </div>
+                  </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo" style="background:#17a2b8">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <b style="color:#fff">Dasar Telekomunikasi</b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <p style="text-indent: 50px;text-align: justify">
+              Radio adalah radiasi sinyal elektromagnetik yang merambat melalui atmosfer dan atau ruang hampa. Informasi yang akan dikirimkan melalui gelombang elektromagnetik ini dimodulasi komponen gelombangnya yaitu amplitude, frekuensi, fasa atau lebar pulsanya. Radiasi tersebut terbentuk ketika objek bermuatan listrik dari gelombang carrier dimodulasi dengan gelombang audio pada frekuensi gelombang radio pada suatu spektrum elektromagnetik. Adapun gelombang radio ini merambat pada frekuensi 100 KHz sampai dengan 100 GHz, sementara gelombang audio merambat pada frekuensi 20 Hz sampai 20 KHz.
+              <br/></p><p style="text-indent: 50px;text-align: justify">Seiring dengan perkembangan teknologi yang semakin berkembang, berbagai perubahan serta perkembangan metode yang memanfaatkan gelombang radio ini juga mengalami kemajuan, gelombang radio ini dimanfaatkan dalam berbagai cara yang memungkinkan komunikasi dapat dilakukan dalam berbagai situasi. Menunjuk pada tabel 6.2.1 adalah tabel spektrum fekuensi yang dikelompokkan dalam range tertentu.
+                <br/></p><p style="text-indent: 50px;text-align: justify"> Pihak – pihak yang membutuhkan secara langsung peralatan radio komunikasi yaitu : pilot, petugas pemandu lalu lintas udara dan teknisi penerbangan. Peralatan – peralatan yang digunakan dalam melakukan komunikasi adalah :
+               <br/>a)	High Frequency Air/Ground Communication (HF A/G)
+               <br/>b)	VHF A/G (AFIS, ADC, APP)
+               <br/>c)	VHF - ER (ACC)
+              </p>
+        </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree" style="background:#17a2b8;">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <b style="color:#fff">VHF A/G ER (Air-to-Ground Extended Range) </b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <p style="text-indent: 50px;text-align: justify">VHF-ER merupakan peralatan komunikasi yang berfungsi sebagai perpanjangan jangkauan kontrol ACC yang mempunyai fungsi utama untuk mengcover area – area dalam cakupan wilayah ACC yang tidak dapat dijangkau langsung oleh peralatan VHF yang ada di pusat wilayah tersebut sehingga diperlukan perpanjangan untuk tetap mengcover wilayah yang tidak terjangkau oleh ACC tersebut.
+            </p><br/><p style="text-indent: 50px;text-align: justify">Antena VHF yang sangat tinggi ditempatkan didaerah pegunungan atau didaerah dataran tinggi, selanjutnya dibangun stasiun radio untuk penempatan peralatan dimaksud sehingga dapat menjangkau daerah yang sangat luas sesuai kebutuhan pelayanan penerbangan (ACC-area). power dari peralatan ini sebesar 100 watt - 200 watt tergantung kebutuhan area jangkauan yang dikehendaki, letak geografis penempatan alat tersebut terkait seberapa jauh pancaran yang diharapkan.untuk transmisi VHF-ER ke stasiun Center ini sendiri menggunakan V- SAT.
+            </p><br/><p style="text-indent: 50px;text-align: justify">Fungsi utama VHF-ER ini yaitu memperkuat sinyal dari peralatan utama yang kemudian ditempatkan di bandara – bandara yang bertanggung jawab terhadap pelayanan lalu lintas udara. Diambil permisalan, karena wilayah ACC di Indonesia terbagi menjadi 2 wilayah yaitu barat dan timur, yang bertugas untuk mengatur wilayah ACC wilayah timur dipegang oleh Bandar Udara Sultan Hasanuddin Makassar sebagai center di Indonesia bagian timur, sedangkan untuk yang bertugas untuk mengelola ACC bagian barat yaitu Bandara Soekarno Hatta. Kemudian VHF-ER ini di tempatkan dan tersebar luas di berbagai wilayah di Indonesia yang telah ditentukan.
+</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour" style="background:#17a2b8;">
+          <h2 class="mb-0">
+            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <b style="color:#fff">V-SAT (Very Small Aparture Terminal)</b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body">
+            <p style="text-indent: 50px;text-align: justify">V-SAT yaitu Fasilitas transmisi dimana pemancar dan penerimanya pada frekuensi yang berbeda sehingga komunikasi dapat berlangsung secara full duplex dengan menggunakan media satelit. VSAT merupakan suatu perangkat transceiver satelit yang berukuran kecil unuk komunikasi data, suara dan fax yang handal antara beberapa site-disebut dengan earth station yang tersebar secara geografis. kata-kata "very small" pada akronim VSAT berhubungan dengan ukuran diameter piringan antenna [6]
+            <br/><b>Kerugian V-SAT:</b>
+            <br/>-	Delay, sekitar 250 ms on single hop yaitu cara kerja V-SAT pada dasarnya dilakukan melalui dua kali pancaran, dari V-SAT ke Hub Station dan dari Hub Station ke V-SAT yang dituju. untuk satu kali pancaran dibutuhkan waktu 0,25 detik,karena dua kali pancaran maka waktu yang dibutuhkan menjadi 0,5 detik sehingga dalam komunikasi terdpat delay inheren kurang lebih 5 detik.          
+            <br/>-	Fading, sinyal satelite mengalami pelemahan karena cuaca buruk maupun kabut seperti Ku atau Ka band.
+            <br/>-	Interference,jaringan yang beroperasi pada C-band rentan terhadap interferensi dari sinyal-sinyal microwave terrestrial.          
+            <br/><b>Keuntungan V-SAT:</b>
+            <br/>-	Cost-effective
+            <br/>-	mudah dalam instalasi
+            <br/>-	manajement jaringan tersentralisasi
+            <br/>-	satelite dapat men-cover daerah yang sangat luas meliputi daerah luar maupun yang terpencil (nasional, regional maupun international)
+            <br/>-	mendukung kecepatan data yang tinggi
+            <br/>-	dapat terhubung dengan jaringan lain termasuk PSTN, dan cellular telephone system.
+          </p>     
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<br><br>
+</div></div>
+</section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <p>Copyright &copy; 2022 | Arnila Maulidya Avianty</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwYyeTe6-DLYU4WYVkuq5WIyhgtBE48QZxjPKkmzyABnyzBm6X5JqLF74GCq8AMmqs/exec';
+      const form = document.forms['contact-form-desainku'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const alertDone = document.querySelector('.alert-done');
+      const alertFail = document.querySelector('.alert-fail');
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            alertDone.classList.toggle('d-none');
+            form.reset();
+            console.log('Success!', response)
+            })
+          .catch((error) => {
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            alertFail.classList.toggle('d-none');
+            console.error('Error!', error.message)});
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const CardImage = document.querySelectorAll('.gbr-anim')
+      CardImage.forEach((img,i) => {
+        img.dataset.aos = 'fade-left';
+        img.dataset.aosDelay = i * 150;
+      })
+      AOS.init({
+        once:true,
+        delay: 1000});
+    </script>
+  
+    <!-- jQuery & Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
